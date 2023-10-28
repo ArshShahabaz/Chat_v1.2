@@ -1,0 +1,67 @@
+/* Reset some default styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Chat container */
+.chat-container {
+    max-width: 800px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Chat header */
+.chat-header {
+    background-color: #7289da; /* Discord's color */
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 4px 4px 0 0;
+}
+
+/* Chat messages container */
+.chat-messages {
+    max-height: 300px; /* Limit the height of the chat messages */
+    overflow-y: auto; /* Add a scrollbar when messages overflow */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 0 0 4px 4px;
+}
+
+/* Chat input area */
+.chat-input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+/* Message input field */
+input[type="text"] {
+    flex-grow: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Send button */
+button {
+    background-color: #7289da;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+/* Individual chat message */
+.message {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+    margin: 4px 0;
+}
